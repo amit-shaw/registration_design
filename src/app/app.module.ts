@@ -3,14 +3,23 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { EditorComponent } from './editor/editor.component';
+import { NavFirstComponent } from './nav-first/nav-first.component';
+import { NavSecondComponent } from './nav-second/nav-second.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EditorComponent,
+    NavFirstComponent,
+    NavSecondComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    
+    
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
